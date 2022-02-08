@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Activity</string>
+    <string name="navigating_to_activity2">navigating to activity2</string>
+    <string name="navigating_to_activity1">navigating to activity1</string>
+    <string name="finish">finish</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.verizon.adop.activity
+package com.example.activity
 
 import org.junit.Test
 
