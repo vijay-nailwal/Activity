@@ -74,15 +74,22 @@ class MainActivity1 : AppCompatActivity(), View.OnClickListener {
         LogUtil.d("")
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        LogUtil.d("")
+    }
+
+
     override fun onClick(v: View?) {
         if (v?.id == R.id.activity_main1_button) {
             val intent = Intent(this@MainActivity1, MainActivity2::class.java)
             startActivity(intent)
             LogUtil.d("")
         } else if (v?.id == R.id.activity_main1_button_finish) {
-            finish()
             val intent = Intent(this@MainActivity1, MainActivity2::class.java)
             startActivity(intent)
+            finish()
         }
     }
+
 }

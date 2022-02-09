@@ -60,6 +60,12 @@ class MainActivity2 : AppCompatActivity(), View.OnClickListener {
         LogUtil.d("")
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        LogUtil.d("")
+        finish()
+    }
+
     private fun findViews() {
         button = findViewById(R.id.activity_main2_button)
         button.setOnClickListener(this)
