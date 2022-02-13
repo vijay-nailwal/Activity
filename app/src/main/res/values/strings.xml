@@ -3,4 +3,6 @@
     <string name="navigating_to_activity2">navigating to activity2</string>
     <string name="navigating_to_activity1">navigating to activity1</string>
     <string name="finish">finish</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
